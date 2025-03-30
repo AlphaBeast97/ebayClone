@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ebay Clone &hearts;</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav-panel1">
+            <div class="nav-panel1-left">
+                <p>Hi! <a class="signin-register">Sign in</a> or <a class="signin-register">register</a></p>
+                <a>Daily Deals</a>
+                <a>Brand Outlet</a>
+                <a>Gift Cards</a>
+                <a>Help & Contacts</a>
+            </div>
+            <div class="nav-panel1-right">
+                <a>Ship to</a>
+                <a>Sell</a>
+                <select><option>Watchlist</option></select>
+                <select><option>My eBay</option></select>
+                <a><i style="font-size: 1rem;" class="fa-regular fa-bell"></i></a>
+                <a><i style="font-size: 1rem;" class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+
+        <div class="nav-panel2">
+            <div class="logo">
+                <a><img src="data:image/png;base64,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" alt="ebay"></a>
+            </div>
+            <div class="cat">
+                <a><p>Shop by</p>
+                    <p>category<select><option></option></select></p>
+                </a>
+            </div>
+
+            <div class="searchbar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Search for anything">
+                <div class="cat2">
+                    <p>All Categories</p>
+                    <select><option></option></select>
+                </div>
+            </div>
+
+            <div class="btn-adv">
+                <button class="Search">Search</button>
+                <a class="adv">Advanced</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="utils-panel">
+        <ul>
+            <a class="utils noborder">Explore (New!)</a>
+            <a class="utils noborder">Saved</a>
+            <a class="utils">Electronics</a>
+            <a class="utils">Motors</a>
+            <a class="utils">Fashion</a>
+            <a class="utils">Collectibles and Art</a>
+            <a class="utils">Sports</a>
+            <a class="utils">Health & Beauty</a>
+            <a class="utils">Industrial equipment</a>
+            <a class="utils">Home & Garden</a>
+            <a class="utils noborder">Deals</a>
+            <a class="utils">Sell</a>
+        </ul>
+    </div>
+    <div class="banner">
+        <div class="banner-img">
+            <div class="banner-text">
+                <div class="banner-textup">
+                    Returns made simple
+                </div>
+                <div class="banner-textdown">
+                    Not happy with your purchase? It's easy to start a return.
+                </div>
+                <button class="learn-more">Learn more</button>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
